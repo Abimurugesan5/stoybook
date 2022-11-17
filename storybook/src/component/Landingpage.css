@@ -1,0 +1,27 @@
+.product_management{
+    color: #8C8C8C;
+}
+.card_divider{
+    background-color: white;
+    border-radius: 4px 4px 0px 0px;
+    width: 100%;
+
+}
+.role{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #0C3F4A;
+}
+.container1{
+    margin-top:15%
+}
+.location{
+    margin-top:10%
+}
+.image_align{
+    text-align: center;
+    margin-top: 45%;
+}
