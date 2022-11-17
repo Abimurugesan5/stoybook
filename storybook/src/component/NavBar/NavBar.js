@@ -55,7 +55,7 @@ render(){
                     <span>Dashboard</span>
                     <Link to="/" />
                 </Menu.Item>
-                <Menu.Item key="2" icon={<HeartSvg />}>
+                <Menu.Item key="2" >
                     <span>Jobs</span>
                     <Link to="/addjob" />
                 </Menu.Item>

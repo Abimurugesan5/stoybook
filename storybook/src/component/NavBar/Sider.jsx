@@ -6,13 +6,7 @@ import './NavBar.css'
 import { Layout, Menu, Input, Row, Col, Divider, Button } from 'antd';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 const { Header, Content, Sider } = Layout;
-const HeartSvg = () => (
-    <svg class="anticon ant-menu-item-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect x="7" y="6" width="6" height="11.5" stroke="#36C185" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
-        <rect x="2.5" y="6" width="15" height="11.5" rx="1" stroke="white" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
-        <path d="M7 3.5C7 2.94772 7.44772 2.5 8 2.5H12C12.5523 2.5 13 2.94772 13 3.5V6H7V3.5Z" stroke="white" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
-    </svg>
-);
+
 
 const SideBar = () => {
 
@@ -46,7 +40,7 @@ const SideBar = () => {
                     <span>Dashboard</span>
                     <a to="/" />
                 </Menu.Item>
-                <Menu.Item key="2" icon={<HeartSvg />}>
+                <Menu.Item key="2" >
                     <span>Jobs</span>
                     <a to="/addjob" />
                 </Menu.Item>

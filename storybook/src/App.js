@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react';
+import FormField from './component/Login';
+import SideBar from './component/NavBar/Sider';
+import Sign from './component/Sign';
+import TableAnd from './component/Table';
+import Banner from './component/Banner';
+import NavBar from './component/NavBar/NavBar';
+import NormalCards from './component/NormalCard';
+import Form from './component/Forms';
+import PlainForm from './component/PlainForm/PlainForm';
 function App() {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      
+         <Sign/>   
     </div>
   );
 }
-
 export default App;
